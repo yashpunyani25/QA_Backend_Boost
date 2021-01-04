@@ -1,0 +1,310 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-13T10:33:07.555Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.CommonSteps.beforeEveryScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "1) Verify details of given hotel id is updated",
+        "description": "",
+        "id": "posthotelsummarydraft;1)-verify-details-of-given-hotel-id-is-updated;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.CommonSteps.afterEveryScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 431000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Testing Environment",
+            "match": {
+              "location": "stepDefinations.CommonSteps.getBaseURI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I pass Headers",
+            "match": {
+              "location": "stepDefinations.CommonSteps.setHeaders(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "accept",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1502000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I set Authorization token",
+            "match": {
+              "location": "stepDefinations.CommonSteps.iSetAuthorizationToken()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I pass body \"POSTHotelSummaryDraft\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "POSTHotelSummaryDraft",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinations.CommonSteps.setBodyInRequest(java.lang.String,java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "atgHotelId",
+                  ""
+                ]
+              },
+              {
+                "cells": [
+                  "chainBrandId",
+                  "49"
+                ]
+              },
+              {
+                "cells": [
+                  "checkinBeginTime",
+                  "15:00"
+                ]
+              },
+              {
+                "cells": [
+                  "checkinEndTime",
+                  "18:00"
+                ]
+              },
+              {
+                "cells": [
+                  "checkoutTime",
+                  "12:00"
+                ]
+              },
+              {
+                "cells": [
+                  "countryCode",
+                  "AE"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "test@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "fax",
+                  "1-360-895-8088"
+                ]
+              },
+              {
+                "cells": [
+                  "floors",
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "hotelChainId",
+                  "71"
+                ]
+              },
+              {
+                "cells": [
+                  "hotelNameAr",
+                  "كومفرت إن أون ذا باي"
+                ]
+              },
+              {
+                "cells": [
+                  "hotelNameEn",
+                  "Comfort Inn On the Bay"
+                ]
+              },
+              {
+                "cells": [
+                  "isActive",
+                  "true"
+                ]
+              },
+              {
+                "cells": [
+                  "latitude",
+                  "47.542831"
+                ]
+              },
+              {
+                "cells": [
+                  "longitude",
+                  "-122.629782"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "1-360-895-2666"
+                ]
+              },
+              {
+                "cells": [
+                  "propertyTypeId",
+                  "18"
+                ]
+              },
+              {
+                "cells": [
+                  "rank",
+                  "5"
+                ]
+              },
+              {
+                "cells": [
+                  "rooms",
+                  "50"
+                ]
+              },
+              {
+                "cells": [
+                  "starRating",
+                  "0"
+                ]
+              },
+              {
+                "cells": [
+                  "thumbnailUrl",
+                  "https://hotelcmsimages.s3-eu-west-1.amazonaws.com/hotel/hotels/1000000/50000/43300/43284/ff2ae107_z.jpg"
+                ]
+              },
+              {
+                "cells": [
+                  "tvHotelId",
+                  "18"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "system"
+                ]
+              },
+              {
+                "cells": [
+                  "website",
+                  "www.boostTesting.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4732000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I perform \"POST\" operation \"POSTHotelSummaryDraft\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "POST",
+                  "offset": 11
+                },
+                {
+                  "val": "POSTHotelSummaryDraft",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinations.CommonSteps.executeOperation_GET(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I should get http status \"200\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinations.CommonSteps.verifyHttpStatus(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I verify response content type is JSON",
+            "match": {
+              "location": "stepDefinations.CommonSteps.verifyResponseContentType()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@temp"
+          }
+        ]
+      }
+    ],
+    "name": "POSTHotelSummaryDraft",
+    "description": "",
+    "id": "posthotelsummarydraft",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HotelSummaryController/POSTHotelSummaryDraft.feature",
+    "tags": []
+  }
+]

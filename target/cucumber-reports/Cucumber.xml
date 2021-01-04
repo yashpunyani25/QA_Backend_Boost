@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="7.119">
+<testcase classname="POSTHotelSummaryDraft" name="1) Verify details of given hotel id is updated" time="6.958">
+<system-out><![CDATA[Given Testing Environment...................................................passed
+When I pass Headers.........................................................passed
+And I set Authorization token...............................................passed
+And I pass body "POSTHotelSummaryDraft".....................................passed
+And I perform "POST" operation "POSTHotelSummaryDraft"......................passed
+Then I should get http status "200" in response.............................passed
+And I verify response content type is JSON..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,28 @@
+[
+  {
+    "atgHotelId": 0,
+    "chainBrandId": 0,
+    "checkinBeginTime": "HH:mm",
+    "checkinEndTime": "HH:mm",
+    "checkoutTime": "HH:mm",
+    "countryCode": "string",
+    "email": "string",
+    "fax": "string",
+    "floors": 0,
+    "hotelChainId": 0,
+    "hotelNameAr": "string",
+    "hotelNameEn": "string",
+    "isActive": true,
+    "latitude": 0,
+    "longitude": 0,
+    "phone": "string",
+    "propertyTypeId": 0,
+    "rank": 0,
+    "rooms": 0,
+    "starRating": 0,
+    "thumbnailUrl": "string",
+    "tvHotelId": 0,
+    "username": "string",
+    "website": "string"
+  }
+]

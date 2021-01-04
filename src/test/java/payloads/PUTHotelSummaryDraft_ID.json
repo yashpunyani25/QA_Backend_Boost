@@ -1,0 +1,23 @@
+{
+  "chainBrandId": "%chainBrandId",
+  "checkinBeginTime": "%checkinBeginTime",
+  "checkinEndTime": "%checkinEndTime",
+  "checkoutTime": "%checkoutTime",
+  "email": "%email",
+  "fax": "%fax",
+  "floors": %floors,
+  "hotelChainId": %hotelChainId,
+  "hotelNameAr": "%hotelNameAr",
+  "hotelNameEn": "%hotelNameEn",
+  "hotelTagId": %hotelTagId,
+  "isActive": %isActive,
+  "phone": "%phone",
+  "propertyTypeId": %propertyTypeId,
+  "rank": %rank,
+  "rooms": %rooms,
+  "starRating": %starRating,
+  "thumbnailUrl": "%thumbnailUrl",
+  "unknown": %unknown,
+  "username": "%username",
+  "website": "%website"
+}
